@@ -1,0 +1,134 @@
+/* -- CSS Reset and font -- */
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: Montserrat;
+}
+/*  -- End of CSS Reset and font -- */
+
+body {
+	background: 
+	linear-gradient(
+		rgba(255, 255, 255, 0.970),
+		rgba(255, 255, 255, 0.970)
+		), 
+	url("./images/ImageLanding.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*  -- navbar -- */
+#navbar {
+	background-color: #c4ae66;
+}
+
+.nav-link {
+
+	color: #ffffff !important;
+}
+
+#logo {
+
+	background: 
+		url("./images/Logo.png");
+
+	width: 35px;
+	height: 35px;
+	background-size: cover;
+	border-radius: 30px;
+}
+/* -- end of navbar -- */
+
+
+/* -- hero -- */
+#hero {
+	background: 
+	linear-gradient(
+		rgba(0, 0, 0, 0.59),
+		rgba(0, 0, 0, 0.59)
+		), 
+	url("./images/ImageLanding.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#profile {
+
+	background: 
+		url("./images/Logo.png");
+
+	width: 260px;
+	height: 240px;
+	background-size: cover;
+	border-radius: 400px;
+}
+
+#title {
+ 	
+	font-family: Montserrat;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 72px;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+
+}
+
+#title-base  {
+
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29.26px;
+	color: #FFFFFF;
+
+}
+
+#title-desc  {
+
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 29.26px;
+	color: #FFFFFF;
+
+}
+/* -- End of hero -- */
+
+
+/* -- Manga -- */
+#projects { 
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 8px; /* Optional: to round corners */
+  
+}
+#projects h3 {
+	color: #D8F9FF;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48.76px;
+	text-align: center;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    padding: 1px;
+    border-radius: 2px; /* Optional: to round corners */
+}
+
+/* -- End of Manga -- */
+
+
+/* -- footer -- */
+footer, footer p {
+	background-color: #c4ae66;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+
+}
+/* -- End of footer -- */
